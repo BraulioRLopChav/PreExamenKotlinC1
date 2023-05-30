@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculo nómina"
+            android:textAlignment="center"
+            android:textSize="30dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numero de recibo:"
+            android:textSize="15dp">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNumRecibo"
+            android:inputType="number">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre:"
+            android:textSize="15dp">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNombre">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Horas trabajadas:"
+            android:textSize="15dp">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHorasTrabajadas"
+            android:inputType="numberDecimal">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Horas extras:"
+            android:textSize="15dp">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHorasExtras"
+            android:inputType="numberDecimal">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Puesto"
+            android:textSize="15dp">
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/checkBoxAuxiliar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auxiliar">
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/checkBoxAlbanil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Albañil"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/checkBoxIng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ing. Obra">
+        </CheckBox>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtotal:"
+            android:textSize="15dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtSubtotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Impuestos:"
+            android:textSize="15dp">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtImpuestos"
+            android:editable="false">
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total a pagar:"
+            android:textSize="15dp">
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTotalPagar"
+            android:editable="false">
+        </EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular"
+            android:id="@+id/btnCalcular">
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpiar"
+            android:id="@+id/btnLimpiar">
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regresar"
+            android:id="@+id/btnRegresar">
+        </Button>
+
+    </LinearLayout>
+</ScrollView>
